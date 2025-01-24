@@ -1,7 +1,7 @@
 from sqlalchemy.orm import sessionmaker
 
 from model import BOOK, SHOP, SALE, STOCK, PUBLISHER
-from crete import engine
+from create import engine
 
 Session = sessionmaker(bind=engine)
 session = Session()
